@@ -34,6 +34,6 @@ app.use(function (error, req, res, next) {
 });
 
 // Start server and print in console
-const listener = app.listen(process.env.PORT || 3000, () => {
+const listener = app.listen(process.env.PORT || 3030, () => {
     console.log('App is listening on port ' + listener.address().port)
 })
